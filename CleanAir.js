@@ -1,10 +1,5 @@
 
 let myChart = document.getElementById('myChart').getContext('2d');
-
-// let values = [ 25, 4.9, 13, 30, 21, 20] // DIFFERENT CONDITIONS 
-
-// let values = [ 20, 7, 13, 30, 25, 20]  // ALL GOOD CONDITIONS 
-// let values = [ 27, 17, 25, 30, 31, 21] // ALL BAD CONDITIONS 
 let values = [ 7, 4, 6, 8, 7, 5]   // ALL HAPPY CONDITIONS
 
 let PM = values[4];
