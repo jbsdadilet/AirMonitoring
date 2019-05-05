@@ -1,0 +1,493 @@
+
+body {font-family: Arial, Helvetica, sans-serif;
+    background: url(./src_img/whiteSky.jpg); 
+    background-size: 100%, 100%, 100%;
+    }
+.navbar {
+    width: 100%;
+    background-color: blue;
+    overflow: auto;
+    }
+
+.navbar a{
+    float: left;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+    }
+.login{
+    float: right;
+    border: none;
+    color:white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    /* margin: 4px 2px; */
+    /* cursor: pointer; */
+    background-color: transparent;
+
+    }
+    
+.navbar a:hover, button:hover {
+    background-color: goldenrod;
+    }
+.active {
+    background-color: lightgreen;
+    color:black;
+    }
+
+@media screen and (max-width: 500px) {
+.navbar a {
+    float: none;
+    display: block;
+    }
+    }
+    /* starts of smiles */
+.smily1{
+    position: absolute;
+    top: 85%;
+    left:5%;
+    transform: translate(50%, 50%);
+    width: 200px;
+    height:200px;
+    background: yellow;
+    border-radius: 50%;
+    border:5px solid black;
+    }
+.eyes:before,
+.eyes:after{
+    content: "";
+    position: absolute;
+    top:30%;
+    width: 25px;
+    height: 35px;
+    border-radius: 50%;
+    background:#442200;
+    }
+
+.eyes:before{
+    left:25%;
+    }
+.eyes:after{
+    right:25%;
+    }  
+.lips1_Sad{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:110px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 10px solid rgb(56, 65, 65);
+    border-end-end-radius: 20%
+    }
+.lips1_OK{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:100px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 15px solid rgb(16, 119, 16);
+    border-radius: 30%;        
+    }
+.lips1_Happy{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:100px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 35px solid rgb(214, 27, 27);
+    border-radius: 79%;
+    }
+
+.smily2{
+    position: absolute;
+    top: 85%;
+    left:30%;
+    transform: translate(50%, 50%);
+    width: 200px;
+    height:200px;
+    background: yellow;
+    border-radius: 50%;
+    border:5px solid black;
+    }
+.eyes2:before,
+.eyes2:after{
+    content: "";
+    position: absolute;
+    top:30%;
+    width: 25px;
+    height: 35px;
+    border-radius: 50%;
+    background:#442200;
+            }
+
+.eyes2:before{
+    left:25%;
+        }
+.eyes2:after{
+    right:25%;
+        }
+.lips2_Sad{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:110px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 10px solid rgb(56, 65, 65);
+    border-end-end-radius: 20%
+        }
+.lips2_OK{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:110px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 15px solid rgb(16, 119, 16);
+    border-radius: 30%;        
+        }
+.lips2_Happy{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:100px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 35px solid rgb(214, 27, 27);
+    border-radius: 79%;
+    }
+
+.smily3{
+    position: absolute;
+    top: 85%;
+    left:55%;
+    transform: translate(50%, 50%);
+    width: 200px;
+    height:200px;
+    background: yellow;
+    border-radius: 50%;
+    border:5px solid black;
+        }
+
+.eyes3:before,
+.eyes3:after{
+    content: "";
+    position: absolute;
+    top:30%;
+    width: 25px;
+    height: 35px;
+    border-radius: 50%;
+    background:#442200;
+        }
+
+.eyes3:before{
+    left:25%;
+        }
+.eyes3:after{
+    right:25%;
+        }
+.lips3_Happy{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:100px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 35px solid rgb(214, 27, 27);
+    border-radius: 79%;
+    }
+
+.lips3_Sad{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:110px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 10px solid rgb(56, 65, 65);
+    border-end-end-radius: 20%
+    }
+.lips3_OK{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 80px;
+    height:110px;
+    transform: translate(-50%);
+    border:6px solid transparent;
+    border-bottom: 15px solid rgb(16, 119, 16);
+    border-radius: 30%;        
+    }      
+
+#PM {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 100px;
+    left: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    top: 0%;
+        }
+#CO2 {
+    position: absolute;
+    left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    top: -5%;
+        }
+#SOx {
+    position: absolute;
+    left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    top: -5%;            
+        }
+/* finish the smiles  */
+/* starts of the rec icons */
+div p{
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    bottom: -55%;
+    font-family: cursive;
+    font-size: 24px;
+    left: 30%;
+}
+
+img.bike{
+    position: absolute;  
+    height: 100px;
+    width: 100px;
+    left: 5%;
+    bottom: -75%;
+    
+}
+img.coffee {
+    position: absolute;  
+    height: 100px;
+    width: 100px;
+    left: 30%;
+    bottom: -75%;
+}
+
+img.walk {
+    position: absolute;  
+    height: 100px;
+    width: 100px;
+    left: 55%;
+    bottom: -75%; 
+}
+img.run {
+    position: absolute;  
+    height: 100px;
+    width: 100px;
+    left: 75%;
+    bottom: -75%;
+    
+}
+.tx_Cycling{
+    color: rgb(56, 65, 65);
+    bottom: -90%;
+    left: 2%;
+    text-align: center;
+}
+
+.tx_coffee{
+    color: rgb(56, 65, 65);
+    bottom: -90%;
+    left: 26%
+}
+.tx_walk{
+    color: rgb(56, 65, 65);
+    bottom: -90%;
+    left: 51%;
+}
+
+.tx_run{
+    color: rgb(56, 65, 65);
+    bottom: -90%;
+    left: 71%;
+
+}   
+/*  */
+#tx_Cycling{
+    color: green;
+    bottom: -90%;
+    left: 1%;
+    text-align: center;
+}
+
+#tx_coffee{
+    color: green;
+    bottom: -90%;
+    left: 24%
+}
+#tx_walk{
+    color: green;
+    bottom: -90%;
+    left: 51%;
+}
+
+#tx_run{
+    color: green;
+    bottom: -90%;
+    left: 71%;
+
+}   
+/*  */
+
+/* here is starts login  */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+.button {
+    background-color: skyblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 10%;
+    border-radius: 10%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+.cancelbtn {
+   width: 100%;
+    }
+  }
+
+#date{
+    position: absolute;
+    left:70%;
+    top:12%;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+}
+
+/*black hole  */
+svg {
+    position: absolute;
+    top: 220%;
+    height: 60%;
+    left: 18%;
+    width: 60%;
+    bottom: 0%;
+    padding-bottom: 100px;
+    }
