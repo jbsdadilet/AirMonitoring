@@ -1,4 +1,3 @@
-
 let myChart = document.getElementById('myChart').getContext('2d');
 let values = [ 7, 4, 6, 8, 7, 5]   // ALL HAPPY CONDITIONS
 
@@ -183,7 +182,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
 // code of date
 n =  new Date();
 y = n.getFullYear();
